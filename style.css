@@ -19,6 +19,8 @@ ul {
 /* HEADER START */
 
 .header {
+    display: flex;
+    flex-direction: column;
     min-height: 100vh;
     background: dodgerblue;
 }
@@ -40,8 +42,20 @@ ul {
     column-gap: 30px;
 }
 .header__link {
-    display: inline-block;
     color: #FFFFFF;
     font-size: 20px;
+}
+.content {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.content__title {
+    font-size: 100px;
+}
+.content__txt {
+    font-size: 24px;
 }
 /* HEADER END */
