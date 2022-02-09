@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+.container {    
+    width: 100%;
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 12px;
+}
+/* HEADER START */
+
+.header {
+    min-height: 100vh;
+    background: dodgerblue;
+}
+.header__nav {
+    padding: 20px 0;
+}
+.header__nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__brand {
+    color: #FFFFFF;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+.header__list {
+    display: flex;
+    column-gap: 30px;
+}
+.header__link {
+    display: inline-block;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+/* HEADER END */
