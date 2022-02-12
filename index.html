@@ -1,34 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Vue Cinemas</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="shortcut icon" href="img/svg/docLogo.svg" type="image/x-icon">
 </head>
+
 <body>
-    
+    <a href="" class="ads"><i class="fal fa-film fa-3x"></i>
+        <span class="ads__span">See no special offer restrictions</span>
+    </a>
+    <nav class="nav">
+        <div class="container nav__container">
+            <a href="" class="nav__logo"><img src="img/svg/logo.svg">CINEMAS</a>
+            <ul class="nav__list">
+                <li class="nav__item"><a href="" class="nav__link">Films</a></li>
+                <li class="nav__item"><a href="" class="nav__link">Serials</a></li>
+                <li class="nav__item"><a href="" class="nav__link">Cartoons</a></li>
+                <li class="nav__item"><a href="" class="nav__link">Collections</a></li>
+            </ul>
+        </div>
+    </nav>
     <header class="header">
-        <nav class="header__nav">
+        <img src="img/headerbg.jpg" class="header__banner">
+        <div class="header__content">
             <div class="container">
-                <a href="" class="header__brand">LOGO</a>
-                <ul class="header__list">
-                    <li class="header__item"><a href="#!" class="header__link">home</a></li>
-                    <li class="header__item"><a href="#!" class="header__link">home</a></li>
-                    <li class="header__item"><a href="#!" class="header__link">home</a></li>
-                    <li class="header__item"><a href="#!" class="header__link">home</a></li>
-                    <li class="header__item"><a href="#!" class="header__link">home</a></li>
-                </ul>
-            </div>
-        </nav>
-        <div class="content">
-            <div class="container">
-                <h1 class="content__title">FRONT-END</h1>
-                <p class="content__txt">DEVELOPER</p>
+                <h1 class="header__title">Kong: Skull Island</h1>
+                <p class="header__txt txt-limited">The film takes the viewer to the 70s of the last century. The protagonist organizes an expedition to the Skull island, always covered in fog, on which King Kong was once caught to find the missing brother and some mysterious substance. DuringThe film takes the viewer to the 70s of the last century. The protagonist organizes an expedition to the Skull island, always covered in fog, on which King Kong was once caught to find the missing brother and some mysterious substance. During</p>
+                <div class="header__btns">
+                    <a href="" class="header__btn btn">Watch now</a>
+                    <a href="" class="header__btn btn">Download</a>
+                </div>
             </div>
         </div>
     </header>
-    
+    <main>
+        <section class="films">
+            <div class="container">
+                <h2 class="films__title title">Films</h2>
+                <div class="films__cards">
+                    <div class="films__card">
+                        <img src="img/films/pantera.jpg" class="films__card-image">
+                        <div class="films__card-content">
+                            <a href="" class="films__card-link">
+                                <i class="fad fa-play fa-3x films__card-icon"></i>
+                            </a>
+                            <span class="films__card-time">2:14:33</span>
+                            <h3 class="films__card-title">Black Panther</h3>
+                            <p class="films__card-txt txt-limited">At first glance, you can decide that Wakanda is an ordinary territory of wild Africa, but this is not so. Here, in the bowels of the desert lands, there are hidden deposits of a unique metal capable of absorbing</p>
+                        </div>
+                    </div>
+                    <div class="films__card">
+                        <img src="img/films/batman.png" class="films__card-image">
+                        <div class="films__card-content">
+                            <a href="" class="films__card-link">
+                                <i class="fad fa-play fa-3x films__card-icon"></i>
+                            </a>
+                            <span class="films__card-time">2:32:13</span>
+                            <h3 class="films__card-title">The Dark Knight</h3>
+                            <p class="films__card-txt txt-limited">Batman raises stakes in the war on crime. With the help of Lieutenant Jim Gordon and Attorney Harvey Dent, he intends to clear the streets of crime that is poisoning the city. The cooperation is effective, but soon they</p>
+                        </div>
+                    </div>
+                    <div class="films__card">
+                        <img src="img/films/gentlemen.png" class="films__card-image">
+                        <div class="films__card-content">
+                            <a href="" class="films__card-link">
+                                <i class="fad fa-play fa-3x films__card-icon"></i>
+                            </a>
+                            <span class="films__card-time">1:53:45</span>
+                            <h3 class="films__card-title">The Gentlemen</h3>
+                            <p class="films__card-txt txt-limited">One cunning American, from his student years, had been selling drugs, and now he came up with a scheme of illegal enrichment using the estates of an impoverished English aristocracy and made a very good fortune on</p>
+                        </div>
+                    </div>
+                <div class="films__card">
+                    <img src="img/films/ring.png" class="films__card-image">
+                    <div class="films__card-content">
+                        <a href="" class="films__card-link">
+                            <i class="fad fa-play fa-3x films__card-icon"></i>
+                        </a>
+                        <span class="films__card-time">2:58:20</span>
+                        <h3 class="films__card-title">The Lord of the Rings</h3>
+                        <p class="films__card-txt txt-limited">Tales of Middle-earth is a chronicle of the Great War for the Ring, a war that lasted more than one thousand years. The one who owned the Ring received power over all living creatures, but was obliged to serve</p>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+        <section class="premier">
+            <video src="video/video.mp4" class="premier__video"></video>
+            <div class="premier__content">
+                <div class="container">
+                    <img src="img/blackwidow.png" class="premier__content-img">
+                    <p class="premier__txt">After the events at the Leipzig-Halle airport, Natasha was overtaken by the mistakes of the past. The Red Room again made itself felt - a program to create Widows - professional killers and spies - just like her. Natasha decides once and for all to deal with people whose efforts she herself became a Widow.</p>
+                    <a href="" class="premier__content-btn btn">Watch now</a>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
